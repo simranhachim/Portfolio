@@ -1,0 +1,148 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  margin: 20px;
+}
+
+h1 {
+  /*font-family:  fantasy;*/
+  font-size: 3rem;
+  text-align: center;
+  border-bottom:  3px solid pink;
+  border-right:  3px solid pink;
+  width:  400px;
+  text-align: center;
+  box-shadow:  5px 5px 6px #888888;
+  margin:  20px;
+
+}
+
+.abtme {
+  font-size: 2rem;
+  margin: 20px;
+  border-bottom:  3px solid pink;
+  width:  160px;
+}
+
+.schoolprjct {
+  font-size: 2rem;
+  margin: 20px;
+  border-bottom:  3px solid rgb(248, 131, 121, 0.6);
+  width:  250px;
+}
+
+.socials{
+  font-size: 2rem;
+  margin: 0px 20px 20px 20px;
+  border-bottom:  3px solid #00CED1;
+  width:  110px;
+}
+
+p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  padding: 1rem 2rem;
+  margin-left: 20px;
+  width: 250px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.btn-year {
+  display: flex;
+  flex-flow:  row wrap;
+}
+
+.container {
+  margin: 0px 20px 20px 20px;
+}
+
+.container:hover {
+  background-color:  darkblue;
+}
+
+.socialpic {
+  display:  flex;
+  flex-flow: row wrap;
+}
+
+.shmeat {
+  display: flex;
+  width:  100%;
+  height:  100%;
+}
+
+.card {
+  flex-flow: row wrap;
+  margin: 0px;
+  max-width: 100%;
+  min-width: 50%;
+  height: 0px;
+  position: relative;
+  display: inline-block;
+  border:  none;
+
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .first-img {
+    display: none;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+/*.link:hover {
+  display: flex;
+}
+*/
+
+
+
+
+
+/*.b-fyb:hover {
+  background-color:  darkblue;
+}
+
+.b-syb:hover {
+  background-color:  darkblue;
+}*/
+
+/*Resume 
+about me
+Linkedin*/
